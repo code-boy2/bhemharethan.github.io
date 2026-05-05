@@ -9,7 +9,7 @@
 
 /* BACKGROUND */
 .MIX {
-    background-image: url("image/mixbackground.png");
+    background-image: url("../image/mixbackground.png");
     background-size: cover;
     background-position: center;
     min-height: 100vh;

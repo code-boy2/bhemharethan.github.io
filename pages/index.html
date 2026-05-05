@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holidae Sign Up</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="image/beach.webp" type="image">
+
+</head>
+
+<body>
+    <!-- welcome  -->
+    <div class="color-welcome">
+        <div class="journey">
+            <section class="holiday">
+                <h1>
+                    <span
+                        style="color:white;text-shadow:2px 2px 4px rgba(0,144,180,0.5);animation: slideInUp 4.5s ease forwards;">
+                        Welcome to Holidae<br>
+                        <span
+                            style="color:white;text-shadow:2px 2px 4px rgb(4,204,204); animation: slideInUp 5s ease forwards;">
+                            Start Your Journey
+                        </span>
+                    </span>
+                </h1>
+            </section>
+        </div>
+        <!-- Sign Up Form -->
+        <div class="right">
+            <form action="pages/welcome.html">
+                <section class="holiday">
+                    <h2>Sign Up</h2>
+                    <div class="login-container">
+                        I have an account? <a href="#"><strong>Log In</strong></a>
+                    </div>
+                </section>
+                <div class="input-container">
+                    <label for="fname">Full Name</label>
+                    <input type="text" id="fname" required>
+                </div>
+                <div class="input-container">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="input-container">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Must be at least 6 characters" required>
+                </div>
+                <div class="input-container">
+                    <label for="Confirm">confirm password</label>
+                    <input type="confirm" id="confirm" name="confirm" placeholder="Confirm password" required>
+                </div>
+                <div class="input-container">
+                    <label>
+                        <input type="checkbox">
+                        Sign up for email updates
+                    </label>
+                </div>
+                <button class="signup-btn" type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
