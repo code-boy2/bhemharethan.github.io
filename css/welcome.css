@@ -1,0 +1,493 @@
+.ethan-body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-family: "Poppins", sans-serif;
+    background: rgb(255, 255, 255);
+}
+
+/* BACKGROUND */
+.MIX {
+    min-height: 100vh;
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+}
+
+.video-background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.video-background::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#0001, #000);
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    animation: anime 1.5s ease forwards;
+}
+
+@keyframes anime {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/* LOGO */
+.logo {
+    width: 150px;
+}
+
+/* NAVBAR */
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+}
+
+/* SIGN UP */
+.sign-up {
+    padding-top: 8px;
+    padding-right: 18px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    background-color: #00c853;
+    color: white;
+    border-radius: 10px;
+}
+
+/* TITLE */
+.title {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.title h1 {
+    font-size: 3rem;
+}
+
+/* HOLIDAY */
+.holiday3 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 80%;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    flex-wrap: wrap;
+}
+
+.holiday2 {
+    width: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.holiday1 {
+    height: 180px;
+}
+
+.holiday1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* this is a center */
+.holidaytunga {
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* HOVER EFFECT */
+.holiday2:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+/* HOVER IMAGE */
+.holiday2:hover img {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* HOVER color */
+.holidaytunga:hover {
+    background-color: #00c853;
+    color: white;
+}
+
+/* DESTINATIONS */
+.destinations {
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    color: white;
+}
+
+/* dest123 */
+.dest-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.dest3 {
+    width: 260px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: white;
+    color: black;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.dest2 {
+    position: relative;
+    height: 180px;
+}
+
+.dest2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* BOOK NOW */
+.book-now {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #00c853;
+    color: white;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.dest3:hover .book-now {
+    opacity: 1;
+}
+
+.dest1 {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.dest3:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+/* This is the BOOK section */
+.US {
+    background: white;
+    margin-top: 80px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 60px;
+    padding-right: 0px;
+    padding-bottom: 60px;
+    padding-left: 0px;
+}
+
+.book-container {
+    width: 80%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.book-text {
+    flex: 1;
+}
+
+.book-text p {
+    font-size: 22px;
+}
+
+.book-images {
+    flex: 1;
+}
+
+.img-big {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.img-12 {
+    display: flex;
+    gap: 15px;
+}
+
+.img-12 img {
+    width: 50%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* This is the CHOOSE section */
+.best-holiday {
+    background: #c4c0c0b6;
+    text-align: center;
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+}
+
+/* miximage like summer winter city */
+.HOLA {
+    background-image: url("image/mixbackground.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    padding-right: 0px;
+    padding-bottom: 60px;
+    padding-left: 0px;
+}
+
+.holiday-123 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    flex-wrap: wrap;
+}
+
+.holiday-123 img {
+    width: 230px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.choose-text {
+    max-width: 800px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    font-size: 22px;
+}
+
+/* HOW */
+.howtour-section {
+    background: #e4f2f8;
+    padding-top: 60px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.howtour-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.howtour-img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.howtour-text {
+    max-width: 400px;
+    font-size: 22px;
+}
+
+/* This is the FOOTER */
+.footer {
+    background: #0d1e8a;
+    color: white;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+
+.footer-all {
+    width: 85%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 150px;
+}
+
+/* this is a last part*/
+.happymesaday {
+    text-align: center;
+    background: #4b5bb5;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/* MOBILE phone 17 andriod tv  */
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        width: 90%;
+    }
+
+    .navbar li {
+        display: block;
+        margin-top: 8px;
+        margin-right: 0px;
+        margin-bottom: 8px;
+        margin-left: 0px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .title h1 {
+        font-size: 2rem;
+    }
+
+    .holiday2,
+    .dest3 {
+        width: 90%;
+    }
+
+    .holiday-123 img {
+        width: 90%;
+        height: auto;
+    }
+
+    .img-12 {
+        flex-direction: column;
+    }
+
+    .img-12 img {
+        width: 100%;
+    }
+
+    .howtour-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .book-text p,
+    .choose-text,
+    .howtour-text {
+        font-size: 18px;
+    }
+
+    .footer-all {
+        flex-direction: column;
+        text-align: center;
+    }
+}
