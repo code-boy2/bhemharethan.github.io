@@ -201,6 +201,18 @@ header {
     background: rgba(255, 255, 255, 0.2);
 }
 
+/* IMAGE ANIMATION */
+.anime-img {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.anime-img.show {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
 /* android laptop iphone tv everything */
 @media screen and (max-width: 768px) {
 

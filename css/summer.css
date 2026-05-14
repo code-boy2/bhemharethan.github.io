@@ -175,6 +175,18 @@ header {
     transform: translateY(-8px) scale(1.03);
 }
 
+/* IMAGE ANIMATION */
+.anime-img {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.anime-img.show {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
 /* MOBILE iphone tv laptop evrything*/
 @media screen and (max-width: 768px) {
 
